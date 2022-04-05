@@ -366,15 +366,10 @@ header.background__rolagem2 {
     padding: 30px;
 }
 
-.componentes__projeto {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
 .tipo__projeto {
     display: flex;
     padding: 10px;
+    justify-content: center;
 }
 
 .botoes__projeto {
