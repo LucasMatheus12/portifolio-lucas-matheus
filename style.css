@@ -19,6 +19,21 @@ main {
     padding-top: 90px;
 }
 
+/*------------------ barra de rolagem --------- */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(162, 105, 250, 0.8) 43.75%, rgba(255, 190, 69, 0.8) 100%);
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------- */
 
 /* -------------> CABEÇALHO DO PORTIFÓLIO <-----------------*/
 
@@ -387,6 +402,13 @@ header.background__rolagem2 {
     border-radius: 50px;
     background: none;
     padding: 8px 60px;
+}
+
+/* bolinhas de idicação slides*/
+.slides{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 
