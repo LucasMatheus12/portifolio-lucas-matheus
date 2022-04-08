@@ -379,13 +379,24 @@ header.background__rolagem2 {
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 30px;
     padding: 30px;
+
 }
 
-.tipo__projeto {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
+.slider{
+    margin: 0 auto;
+    width: 625px;
+    height: 265px;
+    overflow: hidden;
 }
+
+/* bolinhas de idicação slides*/
+.slides{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
 
 .botoes__projeto {
     display: flex;
@@ -404,12 +415,6 @@ header.background__rolagem2 {
     padding: 8px 60px;
 }
 
-/* bolinhas de idicação slides*/
-.slides{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
 
 
 /* ---------------- SETION CONTATO --------------- */
