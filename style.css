@@ -359,13 +359,13 @@ header.background__rolagem2 {
     padding: 130px;
 }
 
-.nome__projeto {
+/* .nome__projeto {
     display: flex;
     justify-content: center;
     padding: 10px;
     color: #FFFFFF;
     font-weight: bold;
-}
+} */
 
 .vidro__projetos {
     display: flex;
@@ -382,41 +382,72 @@ header.background__rolagem2 {
 
 }
 
-.slider{
+.slider__projetos{
     margin: 0 auto;
     width: 625px;
     height: 265px;
     overflow: hidden;
 }
 
-/* bolinhas de idicação slides*/
-.slides{
+.slides__projetos{
+    width:400%;
+    height: 20px;
+    display: flex;
+}
+
+.slides__projetos input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 625px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 625px;
+    margin-top: 270px;
+    margin-left: 290px;
     display: flex;
     justify-content: center;
-    gap: 15px;
 }
 
-
-
-.botoes__projeto {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.manual-btn{
+    border: 2px solid #FFBE45;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
 
-.botao__projeto {
-    font-weight: 500;
-    color: #FFBE45;
-    border: 1px solid #FFBE45;
-    box-sizing: border-box;
-    filter: drop-shadow(2px 2px 15px rgba(255, 255, 255, 0.2));
-    border-radius: 50px;
-    background: none;
-    padding: 8px 60px;
+.manual-btn:not(:last-child){
+    margin-right: 20px;
 }
 
+.manual-btn:hover{
+    background-color: #FFBE45;
+}
 
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
 
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
 /* ---------------- SETION CONTATO --------------- */
 
 .contatos {
