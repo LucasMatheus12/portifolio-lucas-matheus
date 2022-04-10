@@ -367,7 +367,7 @@ header.background__rolagem2 {
     font-weight: bold;
 } */
 
-.vidro__projetos {
+/* .vidro__projetos {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -376,11 +376,10 @@ header.background__rolagem2 {
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(150px);
-    /* Note: backdrop-filter has minimal browser support */
     border-radius: 30px;
     padding: 30px;
 
-}
+} */
 
 .slider__projetos{
     margin: 0 auto;
@@ -390,8 +389,8 @@ header.background__rolagem2 {
 }
 
 .slides__projetos{
-    width:400%;
-    height: 20px;
+    width: 400%;
+    height: 265px;
     display: flex;
 }
 
@@ -411,8 +410,7 @@ header.background__rolagem2 {
 .manual-navigation{
     position: absolute;
     width: 625px;
-    margin-top: 270px;
-    margin-left: 290px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -426,7 +424,7 @@ header.background__rolagem2 {
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .manual-btn:hover{
@@ -435,19 +433,19 @@ header.background__rolagem2 {
 
 #radio1:checked ~ .first{
     margin-left: 0;
-}
-
+} 
 #radio2:checked ~ .first{
     margin-left: -25%;
-}
-
+} 
 #radio3:checked ~ .first{
     margin-left: -50%;
-}
-
+} 
 #radio4:checked ~ .first{
     margin-left: -75%;
-}
+} 
+
+
+
 /* ---------------- SETION CONTATO --------------- */
 
 .contatos {
