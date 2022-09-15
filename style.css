@@ -536,3 +536,10 @@ footer {
     display: flex;
     z-index: 1;
 }
+
+.status{
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
