@@ -65,7 +65,10 @@ header {
     align-items: center;
     gap: 30px;
     color: #FFFFFF80;
+    font-family: sans-serif;
+    font-size: 18px;
 }
+
 
 .bolinha {
     background: #FFBE45;
@@ -81,6 +84,10 @@ header {
     align-items: center;
 }
 
+.componente__item:hover{
+    font-weight: bold;
+}
+
 .botao__cabecalho {
     padding: 10px 30px;
     color: #FFFFFF;
@@ -90,9 +97,10 @@ header {
 }
 
 
+
 /* ------------- MOSTRA INICIO - INDICADOR ------------- */
 
-.componente__item a {
+.componente__item a  {
     color: #FFBE45;
 }
 
@@ -118,6 +126,7 @@ header.background__rolagem {
     background: #181818;
     padding: 20px 130px;
     box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.1);
+    
 }
 
 
@@ -142,6 +151,7 @@ header.background__rolagem {
 .cabecalho__nav-bar.mostra_history .componente__item div:not(.auxiliar__historia) {
     display: none;
 }
+
 
 
 /* ----------------------------------------------------------- */
@@ -208,6 +218,7 @@ header.background__rolagem {
 
 header.background__rolagem2 {
     box-shadow: none;
+    
 }
 
 
