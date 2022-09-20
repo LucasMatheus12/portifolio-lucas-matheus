@@ -384,7 +384,7 @@ header.background__rolagem2 {
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(150px);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .container-2{
@@ -399,7 +399,7 @@ header.background__rolagem2 {
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(150px);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 .container-3{
     width: 20%;
@@ -413,7 +413,7 @@ header.background__rolagem2 {
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(150px);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 /* ---------------- SETION CONTATO --------------- */
