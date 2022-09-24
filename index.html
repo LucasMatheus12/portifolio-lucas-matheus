@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio-Lucas</title>
     <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logotipo-inicio/logo.svg" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    
 </head>
 
 <body>
@@ -145,17 +148,91 @@
             <h2 class="titulos__portfolio">
                 Projetos
             </h2>
-            <div class="cards">
-                <div class="container-1">
-                    <h1 class="status">Em Manutenção</h1>
-                </div>
-                <div class="container-2">
-                    <h1 class="status">Em Manutenção</h1>
-                </div>
-                <div class="container-3">
-                    <h1 class="status">Em Manutenção</h1>
-                </div>
-            </div>
+           <div class="section-projetos">
+               
+               <div class="swiper mySwiper container">
+                   <div class="swiper-wrapper content">
+                       <div class="swiper-slide card">
+                           <div class="card-content">
+                               <div class="image">
+                                   <img src="imagens/photo1644290747_Easy-Resize.com.jpg" alt="">
+                               </div>
+                               <div class="name-profession">
+                                   <span class="name">Em Manutenção</span>
+                                   <span class="profession">nome Projeto</span>
+                               </div>
+                               <div class="button">
+                                   <button class="aboutMe"> Ver projeto</button>
+                                   <button class="hireMe">Ver todos</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide card">
+                           <div class="card-content">
+                               <div class="image">
+                                   <img src="imagens/photo1644290747_Easy-Resize.com.jpg" alt="">
+                               </div>
+                               <div class="name-profession">
+                                <span class="name">Em Manutenção</span>
+                                <span class="profession">nome Projeto</span>
+                               </div>
+                               <div class="button">
+                                <button class="aboutMe"> Ver projeto</button>
+                                <button class="hireMe">Ver todos</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide card">
+                           <div class="card-content">
+                               <div class="image">
+                                   <img src="imagens/photo1644290747_Easy-Resize.com.jpg" alt="">
+                               </div>
+                               <div class="name-profession">
+                                <span class="name">Em Manutenção</span>
+                                <span class="profession">nome Projeto</span>
+                               </div>
+                               <div class="button">
+                                <button class="aboutMe"> Ver projeto</button>
+                                <button class="hireMe">Ver todos</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide card">
+                           <div class="card-content">
+                               <div class="image">
+                                   <img src="imagens/photo1644290747_Easy-Resize.com.jpg" alt="">
+                               </div>
+                               <div class="name-profession">
+                                <span class="name">Em Manutenção</span>
+                                <span class="profession">nome Projeto</span>
+                               </div>
+                               <div class="button">
+                                <button class="aboutMe"> Ver projeto</button>
+                                <button class="hireMe">Ver todos</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide card">
+                           <div class="card-content">
+                               <div class="image">
+                                   <img src="imagens/photo1644290747_Easy-Resize.com.jpg" alt="">
+                               </div>
+                               <div class="name-profession">
+                                <span class="name">Em Manutenção</span>
+                                <span class="profession">nome Projeto</span>
+                               </div>
+                               <div class="button">
+                                <button class="aboutMe"> Ver projeto</button>
+                                <button class="hireMe">Ver todos</button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination"></div>
+           </div>
         </section>
 
         <section class="contatos" id="id_contatos">
@@ -208,6 +285,27 @@
     </footer>
 
     <script type="text/javaScript" src="arquivo.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
 
 </body>
 
